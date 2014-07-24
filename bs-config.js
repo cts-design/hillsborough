@@ -47,5 +47,6 @@ module.exports = {
     "host": null,
     "codeSync": true,
     "timestamps": true,
-    "debugInfo": true
+    "debugInfo": true,
+    "host" : "192.168.0.6"
 }
