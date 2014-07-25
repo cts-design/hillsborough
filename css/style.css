@@ -5,7 +5,11 @@
 use full theme mixins
 */
 
-#features h1 {
+#introduction h1 {
+
+}
+
+#features h1, #introduction h1  {
     color: rgba(62, 98, 165, 0.90);
 
 }
@@ -20,8 +24,10 @@ use full theme mixins
 
 #features {
     padding-bottom: 80px;
-    border-bottom: 1px dotted #ebebeb;
-    /*background-color: rgba(62, 98, 165, 0.08);*/
+    /*border-bottom: 1px dotted #ebebeb;*/
+    border-bottom: 1px dotted rgba(62, 98, 165, 0.50);
+
+
 }
 
 #features aside p {
