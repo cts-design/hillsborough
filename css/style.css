@@ -35,7 +35,7 @@ use full theme mixins
 }
 
 .cover {
-    /*background-color: rgba(62, 98, 165, 0.10);*/
+
     /*border-bottom: 1px dotted rgba(62, 98, 165, 0.50);*/
 }
 
@@ -50,10 +50,20 @@ use full theme mixins
 
 figure.pull-left {
    margin: 20px;
-    margin-top: 0px;
-    margin-left: 0px;
+    /*margin-top: 0px;*/
+    /*margin-left: 0px;*/
 }
 
 #articles {
     /*background-color: rgba(62, 98, 165, 0.15);*/
 }
+
+.newsletter {
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(62, 98, 165, 0.80);
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+
