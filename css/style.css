@@ -4,3 +4,56 @@
 /* mixins
 use full theme mixins
 */
+
+#introduction h1 {
+
+}
+
+#features h1, #introduction h1  {
+    color: rgba(62, 98, 165, 0.90);
+
+}
+
+
+#features h1  {
+    /*color: #777777;*/
+    font-size: 1.8rem;
+    border-bottom: 1px dotted rgba(62, 98, 165, 0.50);
+    padding-bottom: 10px;
+}
+
+#features {
+    padding-bottom: 80px;
+    /*border-bottom: 1px dotted #ebebeb;*/
+    border-bottom: 1px dotted rgba(62, 98, 165, 0.50);
+
+
+}
+
+#features aside p {
+    font-size: 1.4rem;
+}
+
+.cover {
+    /*background-color: rgba(62, 98, 165, 0.10);*/
+    /*border-bottom: 1px dotted rgba(62, 98, 165, 0.50);*/
+}
+
+.cover h1 {
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.cover h1:hover {
+    color: #ffffff;
+
+}
+
+figure.pull-left {
+   margin: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#articles {
+    /*background-color: rgba(62, 98, 165, 0.15);*/
+}
