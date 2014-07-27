@@ -1,69 +1,75 @@
+
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 /* mixins
 use full theme mixins
 */
 
-#introduction h1 {
-
-}
-
-#features h1, #introduction h1  {
+#introduction h1
+{
     color: rgba(62, 98, 165, 0.90);
-
 }
 
+#features h1, #introduction h1
+{
+    color: rgba(62, 98, 165, 0.90);
+}
 
-#features h1  {
-    /*color: #777777;*/
+#features h1
+{
     font-size: 1.8rem;
     border-bottom: 1px dotted rgba(62, 98, 165, 0.50);
     padding-bottom: 10px;
 }
 
-#features {
+#features
+{
     padding-bottom: 80px;
-    /*border-bottom: 1px dotted #ebebeb;*/
     border-bottom: 1px dotted rgba(62, 98, 165, 0.50);
-
-
 }
 
-#features aside p {
+#features aside p
+{
     font-size: 1.4rem;
 }
 
-.cover {
-
-    /*border-bottom: 1px dotted rgba(62, 98, 165, 0.50);*/
+.cover
+{
 }
 
-.cover h1 {
+.cover h1
+{
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
-.cover h1:hover {
+.cover h1:hover
+{
     color: #ffffff;
-
 }
 
-figure.pull-left {
-   margin: 20px;
-    /*margin-top: 0px;*/
-    /*margin-left: 0px;*/
+figure.pull-left
+{
+    margin: 20px;
 }
 
-#articles {
-    /*background-color: rgba(62, 98, 165, 0.15);*/
+#articles
+{
 }
 
-.newsletter {
+#articles H1
+{
+    color: rgba(62, 98, 165, 0.90);
+}
+
+.newsletter
+{
     padding: 20px;
     box-sizing: border-box;
     background-color: rgba(62, 98, 165, 0.80);
     color: #ffffff;
     margin-bottom: 20px;
 }
-
 

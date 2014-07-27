@@ -48,5 +48,5 @@ module.exports = {
     "codeSync": true,
     "timestamps": true,
     "debugInfo": true,
-    "host" : "192.168.0.6"
+    "host": "192.168.0.6"
 }
