@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-ng-app="sgApp.controllers" class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions no-fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths ng-scope js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions no-fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"
+<html data-ng-app="sgApp.controllers" class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions no-fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths ng-scope js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions no-fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions no-fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"
 style="">
 <!--[if lt IE 7]>
 <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -11,6 +11,9 @@ style="">
 <!--<![endif]-->
 
 <head>
+    <style type="text/css">
+        @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}
+    </style>
     <style type="text/css">
         @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}
     </style>
@@ -29,6 +32,7 @@ style="">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/open-sans/stylesheet.css">
 
+    <script src="//www.google-analytics.com/ga.js"></script>
     <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 
@@ -227,7 +231,7 @@ style="">
                 </div>
             </div>
         </section>
-        <section id="articles">
+        <section id="articles" class="sg sliver background">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -245,21 +249,7 @@ style="">
                             <p>Delectus facere fugit in ipsum laboriosam natus officiis perspiciatis quam sint soluta? Distinctio dolores earum ex magni necessitatibus obcaecati officiis omnis porro repudiandae! Adipisci asperiores autem culpa deserunt dignissimos
                                 distinctio dolor eos et fuga labore, nisi non nulla optio quam quisquam quod soluta. Assumenda delectus ea enim, iste itaque molestias, odit perspiciatis quod ratione reiciendis similique, sit veniam vitae voluptates.
                             </p>
-                            <aside class="author">
-                                <div class="row">
-                                    <div class="col-sm-2 col-md-1">
-                                        <div class="avatar">
 
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-10 col-md-11">
-                                        <p>Author: John Hancok</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam necessitatibus porro quibusdam recusandae? Doloremque et minima quidem? Aliquam, animi assumenda corporis doloribus ducimus ea illo natus
-                                            nemo ullam ut.
-                                        </p>
-                                    </div>
-                                </div>
-                            </aside>
 
                         </article>
                     </div>
@@ -424,30 +414,19 @@ style="">
             <div class="container footer">
                 <!-- ngInclude: c.footer_copy -->
                 <!-- ngInclude: c.footer_copy -->
+                <!-- ngInclude: c.footer_copy -->
                 <div ng-include="c.footer_copy" class="ng-scope">
                     <div class="row copy-info ng-scope">
                         <div class="col-md-12">
 
                             <p class="ng-binding">© SG.Kit 2013
-                                <!-- ngInclude: e.social -->
-                                <span class="pull-right ng-scope" ng-include="e.social">
-           </span>
+                                <!-- ngInclude: e.social --><span class="pull-right ng-scope" ng-include="e.social"><ul class="social list-inline ng-scope">
+    <li><i class="fa fa-twitter-square"></i></li>
+    <li><i class="fa fa-facebook-square"></i></li>
+    <li><i class="fa fa-google-plus-square"></i></li>
+    <li><i class="fa fa-rss-square"></i></li>
+</ul></span>
                             </p>
-                            <ul class="social list-inline ng-scope">
-                                <li><i class="fa fa-twitter-square"></i>
-                                </li>
-                                <li><i class="fa fa-facebook-square"></i>
-                                </li>
-                                <li><i class="fa fa-google-plus-square"></i>
-                                </li>
-                                <li><i class="fa fa-rss-square"></i>
-                                </li>
-                            </ul>
-
-                            <p></p>
-
-
-                            <p></p>
 
                         </div>
                     </div>
@@ -500,6 +479,8 @@ style="">
             s.parentNode.insertBefore(g, s)
         }(document, 'script'));
     </script>
+
+
 
 
 
