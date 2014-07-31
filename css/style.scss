@@ -1,0 +1,140 @@
+$pale-sky: rgba(95, 105, 112, 1);
+$carrot-orange: rgba(248, 146, 36, 1);
+$electric-blue: rgba(20, 150, 214, 1);
+$yellow-green: rgba(139, 194, 55, 1);
+$article-bg: rgba(20, 150, 214, 0.06);
+$brand-text: rgba(11, 62, 133, 1);
+$nav-bg: rgba(227, 233, 241, 1);
+$margins: 10px;
+$yellow-green-nav: rgba(139, 194, 55, 0.9);
+$yellow-green-nav-hover: rgba(139, 194, 55, 0.5);
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* mixins
+use full theme mixins
+*/
+
+#introduction h1
+{
+    color: rgba(62, 98, 165, 0.90);
+}
+
+#features h1,
+ #introduction h1
+{
+    color: rgba(62, 98, 165, 0.90);
+}
+
+#features h1
+{
+    font-size: 1.8rem;
+    border-bottom: 1px dotted rgba(62, 98, 165, 0.50);
+    padding-bottom: 10px;
+}
+
+#features
+{
+    padding-bottom: 80px;
+}
+
+#features aside p
+{
+    font-size: 1.4rem;
+}
+
+.cover
+{
+}
+
+.cover h1
+{
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.cover h1:hover
+{
+    color: #ffffff;
+}
+
+figure.pull-left
+{
+    margin: 20px;
+}
+
+#articles
+{
+    padding-bottom: 100px;
+    background-color: $article-bg;
+}
+
+#articles H1
+{
+    color: rgba(11, 62, 133, 1);
+}
+
+.newsletter
+{
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(11, 62, 133, 0.75);
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.navbar-default .navbar-brand
+{
+    color: transparent;
+    font-weight: bold !important;
+    background-image: url('../img/mahc-logo-brand.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.navbar-default .navbar-brand:hover,
+ .navbar-default .navbar-brand:focus
+{
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    border-bottom: none;
+}
+
+.navbar-default
+{
+    background-color: $yellow-green-nav;
+    border-bottom: none;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .open > a,
+ .navbar-default .navbar-nav > .open > a:hover,
+ .navbar-default .navbar-nav > .open > a:focus
+{
+    background-color: $yellow-green-nav-hover;
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+ .navbar-default .navbar-nav > li > a:focus
+{
+    color: rgba(248, 146, 36, 1);
+    background-color: transparent;
+}
+
+footer
+{
+    background: $electric-blue;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    color: #fff;
+}
+
