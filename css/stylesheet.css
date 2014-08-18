@@ -63,6 +63,11 @@ footer
     padding-top: 80px;
 }
 
+.page section.cover {
+    padding-top: 0;
+    padding-top; 0;
+}
+
 figure
 {
     margin-bottom: 10px;
@@ -90,13 +95,19 @@ figure
 
 header
 {
-    height: 250px;
+    height: 360px;
     min-height: 250px;
-    text-align: center;
-    background-color: #333333;
-    color: #fcfcfc;
+    /* text-align: center; */
+    background-color: transparent;
+    color: rgba(53, 53, 53, 1);
     padding: 0;
-    margin-top: 0;
+    margin-top: 0px;
+
+    padding-top: 40px;
+
+    padding-bottom: 40px;
+    background-image: url('../img/shattered.png');
+    background-color: rgba(248, 146, 36, 1);
 }
 
 .home header
@@ -104,6 +115,8 @@ header
     height: 500px;
     background-image: url('../img/hm-cover.jpg');
     background-size: cover;
+    text-align: center;
+    color: #fcfcfc;
 }
 
 header h1
